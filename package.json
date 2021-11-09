@@ -1,0 +1,25 @@
+{
+  "name": "heroku-deployed-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranumer/heroku-deployed-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranumer/heroku-deployed-task/issues"
+  },
+  "homepage": "https://github.com/imranumer/heroku-deployed-task#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
